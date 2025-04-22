@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: ./crud-app
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+  backend:
+    build: ./mock-api-server
+    ports:
+      - "8000:8000"
