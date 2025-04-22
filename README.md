@@ -2,6 +2,10 @@
 
 A large-scale, full-featured **CRUD Table Application** built with **React, Vite, TypeScript, Redux, TailwindCSS, and Shadcn UI**, designed for high-performance server-side filtering, sorting, and pagination of datasets with more than **10,000+ records**. Includes a **Node.js + Express mock API server**, clean architecture, Docker support, and full CRUD operations.
 
+## Demo
+
+Check out the live demo: [CRUD Table Demo](https://crud-table-owrm.vercel.app/)
+
 ## ✨ Features
 
 - 🔄 **Server-side pagination, sorting, and filtering**
